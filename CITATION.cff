@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: Camelot Council
+message: "If you use this project, please cite it using the metadata below."
+authors:
+  - family-names: Barrios
+    given-names: Eduardo J.
+    alias: edujbarrios
+license: MIT
+repository-code: https://github.com/edujbarrios/camelot-council
+keywords:
+  - codex
+  - multi-agent
+  - reasoning
+  - deliberation
+  - arthurian
+  - token-efficiency
