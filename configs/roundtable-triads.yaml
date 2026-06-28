@@ -1,0 +1,25 @@
+triads:
+  product:
+    members: [lancelot, nimue, morgana]
+    purpose: Shipping, user clarity, incentives
+  security:
+    members: [gawain, morgana, bedivere]
+    purpose: Threats, adversaries, operational cost
+  architecture:
+    members: [merlin, bedivere, percival]
+    purpose: Long-term structure, maintainability, assumptions
+  code-review:
+    members: [lancelot, gawain, kay]
+    purpose: Implementation, safety, hard critique
+  startup:
+    members: [arthur, morgana, lancelot]
+    purpose: Strategy, incentives, execution
+  design:
+    members: [nimue, percival, bedivere]
+    purpose: UX, assumptions, simplicity
+  risk:
+    members: [gawain, galahad, morgana]
+    purpose: Security, ethics, adversarial risk
+  shipping:
+    members: [lancelot, bedivere, arthur]
+    purpose: Execution, cost, decision

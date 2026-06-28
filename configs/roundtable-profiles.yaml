@@ -1,0 +1,16 @@
+profiles:
+  classic:
+    members: [merlin, arthur, lancelot, gawain, galahad, percival, bedivere, kay, morgana, nimue]
+    purpose: Full ten-member council
+  execution-lean:
+    members: [lancelot, bedivere, arthur, gawain, nimue]
+    purpose: Shipping path with enough risk and user review
+  risk-heavy:
+    members: [gawain, morgana, galahad, kay, merlin]
+    purpose: Threats, incentives, integrity, critique, synthesis
+  product-focused:
+    members: [nimue, lancelot, morgana, percival, arthur]
+    purpose: User value, delivery, incentives, assumptions, decision
+  architecture-focused:
+    members: [merlin, bedivere, percival, gawain, lancelot]
+    purpose: Structure, maintenance, assumptions, safety, execution

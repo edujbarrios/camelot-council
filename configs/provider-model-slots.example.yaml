@@ -1,0 +1,27 @@
+default_execution:
+  target: codex
+  provider: openai
+  model: gpt-5
+  note: Codex can run the complete protocol locally by loading selected Markdown agents.
+
+slots:
+  orchestrator:
+    preferred_agent: merlin
+    provider: openai
+    model: gpt-5
+  decision:
+    preferred_agent: arthur
+    provider: openai
+    model: gpt-5
+  implementation:
+    preferred_agent: lancelot
+    provider: openai
+    model: gpt-5
+  risk:
+    preferred_agent: gawain
+    provider: openai
+    model: gpt-5
+
+future_extension:
+  multi_provider_required: false
+  guidance: Optional provider slots may be mapped by downstream users, but Camelot Council does not require external routing.
