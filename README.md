@@ -1,6 +1,6 @@
 # Camelot Council
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Target: OpenAI Codex](https://img.shields.io/badge/Target-OpenAI%20Codex-111111.svg)](SKILL.codex.md)
 
 Camelot Council is a Codex-first structured deliberation framework inspired by the Arthurian Round Table. It gives OpenAI Codex a compact council of Markdown agents for product decisions, code review, security review, architecture choices, startup strategy, and other moments where one-pass reasoning is too thin.
@@ -211,7 +211,7 @@ Camelot Council includes the usual community files for a public GitHub project:
 - [Support Policy](SUPPORT.md)
 - GitHub issue templates for bugs, features, and agent changes
 - Pull request template
-- MIT license and citation metadata
+- Apache-2.0 license and citation metadata
 
 ## Contributing
 
@@ -223,4 +223,4 @@ If you use Camelot Council in research, writing, or tooling, cite the project wi
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Apache License 2.0. See [LICENSE](LICENSE).

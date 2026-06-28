@@ -5,7 +5,7 @@ authors:
   - family-names: Barrios
     given-names: Eduardo J.
     alias: edujbarrios
-license: MIT
+license: Apache-2.0
 repository-code: https://github.com/edujbarrios/camelot-council
 keywords:
   - codex
