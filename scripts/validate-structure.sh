@@ -32,8 +32,19 @@ require_dir "demos"
 require_dir "scripts"
 
 for file in \
-  AGENTS.md CHANGELOG.md CITATION.cff CONTRIBUTING.md LICENSE README.md \
+  AGENTS.md CHANGELOG.md CITATION.cff CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE README.md \
+  SECURITY.md SUPPORT.md \
   SKILL.md SKILL.codex.md install.sh .editorconfig .gitattributes .gitignore
+do
+  require_file "$file"
+done
+
+for file in \
+  .github/pull_request_template.md \
+  .github/ISSUE_TEMPLATE/bug_report.yml \
+  .github/ISSUE_TEMPLATE/feature_request.yml \
+  .github/ISSUE_TEMPLATE/agent_change.yml \
+  .github/ISSUE_TEMPLATE/config.yml
 do
   require_file "$file"
 done

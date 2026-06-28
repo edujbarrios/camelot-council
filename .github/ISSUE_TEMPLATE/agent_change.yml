@@ -1,0 +1,40 @@
+name: Agent change
+description: Suggest a change to an existing Round Table member.
+title: "agent: "
+labels: ["agent"]
+body:
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      options:
+        - Merlin
+        - Arthur
+        - Lancelot
+        - Gawain
+        - Galahad
+        - Percival
+        - Bedivere
+        - Kay
+        - Morgana
+        - Nimue
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why?
+      description: Explain the practical deliberation improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: Suggested wording
+      description: Keep it compact and operational.

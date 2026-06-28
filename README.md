@@ -20,6 +20,7 @@ The project is open source, file-based, token-conscious, and command-oriented.
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Repository Layout](#repository-layout)
+- [Open Source Health](#open-source-health)
 - [Contributing](#contributing)
 - [Citation](#citation)
 - [License](#license)
@@ -199,6 +200,18 @@ scripts/     Structure validation and simulation checklist
 SKILL.md     General skill entry
 SKILL.codex.md  Primary Codex skill
 ```
+
+## Open Source Health
+
+Camelot Council includes the usual community files for a public GitHub project:
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contributing Guide](CONTRIBUTING.md)
+- [Security Policy](SECURITY.md)
+- [Support Policy](SUPPORT.md)
+- GitHub issue templates for bugs, features, and agent changes
+- Pull request template
+- MIT license and citation metadata
 
 ## Contributing
 

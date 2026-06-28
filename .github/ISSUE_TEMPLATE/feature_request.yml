@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a new capability, triad, profile, or workflow.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What decision, workflow, or user need would this improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the smallest useful version.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Project fit
+      options:
+        - label: This keeps Camelot Council Codex-first.
+        - label: This preserves compact, token-efficient behavior.
+        - label: This does not add lore or roleplay as core behavior.
